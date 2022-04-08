@@ -1,0 +1,117 @@
+.center {
+  position: relative;
+  right: -90px;
+  
+  
+}
+
+body {
+    background-color: black;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", "Helvetica, Arial", sans-serif, "ColegiateBlackFLF, Verdana";
+    font-size: 10px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 920px;
+    padding: 2em 2em 4em;
+}
+
+h1 {
+    font-size:4em;
+     font-family: CollegiateOutlineFLF;
+      color: white;
+}
+
+img {
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 95%;
+}
+
+
+ul{
+    float: left;
+    list-style-type: none;
+    
+}
+
+ul li {
+    display: inline-block;
+    align-content: center;
+    margin-left: 14px;
+    margin-right: 5px;
+}
+
+ul li a {
+    width: 70px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px 25px;
+    border: 0px solid;
+    transition: 0.6s ease;
+    transform: translateX(37%)
+}
+
+ul li a:hover{
+    background-color:whitesmoke;
+    color:black;
+    
+}
+
+ul li.active a{
+    background-color:whitesmoke;
+    color:black; 
+}
+
+button {
+    display: inline-block;
+    align-content: center;
+    margin-left: 3px;
+    margin-right: 5px;
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    padding: 5px 25px;
+    border: 0px solid;
+}
+button:hover {
+    transition: all 0.7s ease-out;
+    background-color:whitesmoke;
+    color: black;
+}
+button::before {
+    content: "🔎 ";
+  }
+ #text {
+    font-size: 2em;
+      color: white;
+    
+ }
+
+ .dsTitle{
+    font-size: 5em; 
+    font-family: CollegiateOutlineFLF;
+     color: white;
+ }
+
+.AWARDS{
+    position: relative;
+    left: -5px;
+    text-align: center;
+}
+
+img {
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 95%;
+}
